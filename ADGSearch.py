@@ -2,11 +2,8 @@
 
 # https://adg.org + url
 
-import requests
 import json
 import time
-from bs4 import BeautifulSoup
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -102,6 +99,7 @@ for url in profile_urls:
 
 with open("adg_profiles.json", "w", encoding="utf-8") as f:
     json.dump(profiles, f, indent=2, ensure_ascii=False)
+
 
 
 print(profiles)
