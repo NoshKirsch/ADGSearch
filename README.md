@@ -1,2 +1,2 @@
 # IMDb-ArtDept-Scraper
-Scrapes contact info from IMDb Art Directors and Set Decorators to use as contacts for sales leads.
+Collects info from ADG Directory to use for sales leads.
